@@ -111,7 +111,56 @@
         line-height: 20px;
         text-align: left;
     }
-    
+
+/* ----------- iPhone 5, 5S, 5C and 5SE Portrait ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .three-columns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .three-columns .column p{
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 Portrait ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ Portrait ----------- */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}   
+
+/* --------- iPhone X Landscape -------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
     </style>
     <body>
         <center class="wrapper">
@@ -211,7 +260,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 10px;">
-                                                        <p style="font-weight: bold;font-size: 17px;">Traffic</p>
+                                                        <p style="font-weight: bold;font-size: 20px;">Traffic</p>
                                                         <p>Sign up for our subscription newsletter to receive traffic updates in the tri-state area.</p>
                                                     </td>
                                                 </tr>
@@ -230,7 +279,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 10px;">
-                                                        <p style="font-weight: bold;font-size: 17px;">Crime</p>
+                                                        <p style="font-weight: bold;font-size: 20px;">Crime</p>
                                                         <p>Sign up for our subscription newsletter to receive crime updates in the tri-state area.</p>
                                                     </td>
                                                 </tr>
@@ -249,7 +298,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 10px;">
-                                                        <p style="font-weight: bold;font-size: 17px;">Weather</p>
+                                                        <p style="font-weight: bold;font-size: 20px;">Weather</p>
                                                         <p>Sign up for our subscription newsletter to receive weather updates in the tri-state area.</p>
                                                     </td>
                                                 </tr>
